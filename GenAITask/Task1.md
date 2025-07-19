@@ -13,6 +13,8 @@ Knowledge Gaps: Lack of centralized, vendor-agnostic insights, leading to incons
 Dynamic Environments: Frequent updates to hardware and software require up-to-date knowledge.
 
 The RAG model addresses these challenges by combining a retrieval mechanism to fetch relevant sections from public vendor documents with a generative AI model to provide concise, actionable answers. Associates will learn to build and interact with this system using the provided documentation URLs.
+
+
 2. Solution Description
 The RAG model is deployed as an intelligent assistant for IT infrastructure management in a training environment, with the following components for associates to explore:
 
@@ -22,16 +24,10 @@ Generative Component: Associates will integrate a large language model (e.g., a 
 User Interface: Associates will create a query interface (e.g., a chatbot or dashboard) where they can input natural language questions and receive tailored responses, simulating real-world IT administration scenarios.
 
 Associates are responsible for ingesting the provided documents, indexing them, and building the RAG pipeline to enable querying, gaining hands-on experience with the RAG workflow.
-3. Key Benefits for Training
 
-Practical Learning: Associates gain experience in document ingestion, indexing, and querying, key skills for building RAG systems.
-Improved Efficiency: Demonstrates how RAG reduces time spent searching through vendor documentation by retrieving and summarizing relevant sections.
-Vendor-Agnostic Insights: Teaches associates to cross-reference information across Dell, IBM, Cisco, Juniper, Fortinet, and EUC documents for holistic answers.
-Proactive Maintenance: Highlights how RAG identifies best practices and configuration recommendations to prevent issues.
-Scalability: Shows how RAG adapts to new documents, preparing associates for dynamic IT environments.
-Enhanced Security: Illustrates how RAG leverages Fortinet and Cisco firewall documentation to recommend secure configurations.
 
-4. Example Scenarios for Learning
+
+3. Example Scenarios for Learning
 Associates can practice querying the RAG system with the following scenarios to understand its application and evaluate response accuracy:
 
 Scenario 1: Server Troubleshooting
@@ -54,7 +50,7 @@ Query: â€œHow to scale Nutanix EUC solutions for 5,000 users with Dell servers?â
 Expected RAG Behavior: Synthesizes Nutanix EUC Solutions documentation and Dell PowerEdge Rack Servers Quick Reference Guide to outline infrastructure requirements and scalability options.
 
 
-6. Data Sources with URLs
+4. Data Sources with URLs
 The RAG model relies on the following publicly available vendor documentation, accessible via the provided URLs. Associates are tasked with ingesting and indexing these documents:
 
 Dell:
